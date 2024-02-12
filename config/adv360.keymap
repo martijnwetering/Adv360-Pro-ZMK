@@ -49,21 +49,21 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
         default_layer {
             bindings = <
-              &kp EQUAL  &kp N1       &kp N2      &kp N3      &kp N4            &kp N5  &tog 1                                                        &mo 3        &kp N6  &kp N7       &kp N8      &kp N9      &kp N0       &kp MINUS
-              &kp TAB    &kp Q        &kp W       &kp F       &kp P             &kp G   &none                                                         &kp LG(LS(J))        &kp J   &kp L        &kp U       &kp Y       &kp SEMI     &kp BSLH
-              &hm LCTRL ESC    &hml LCTRL A        &hml LALT R       &hml LGUI S       &hml LSHIFT T             &kp D   &none     &kp LGUI   &kp LALT        &kp LCTRL  &kp RGUI      &kp LG(LC(J))        &kp H   &hmr RSHIFT N        &hmr LGUI E       &hmr RALT I       &hmr RCTRL O        &kp SQT
-              &kp LSHFT  &kp Z        &hml LG(LCTRL) X       &hml LG(LALT) C       &kp V             &kp B                         &kp LG(LA(BSLH))   &kp PG_UP                                 &kp K   &kp M        &hmr LG(LALT) COMMA   &hmr LG(LCTRL) DOT     &kp FSLH     &kp RSHFT
-              &kp LGUI      &kp GRAVE    &kp LALT    &kp LEFT    &kp RIGHT                 &kp BSPC  &kp ENTER   &kp END    &kp PG_DN  &lt 1 ESCAPE  &lt 2 SPACE          &kp UP       &kp DOWN    &kp LBKT    &kp RBKT     &mo 2
+              &kp EQUAL      &kp N1        &kp N2            &kp N3           &kp N4          &kp N5     &tog 1                                                           &mo 3           &kp N6  &kp N7         &kp N8                &kp N9               &kp N0         &kp MINUS
+              &kp TAB        &kp Q         &kp W             &kp F            &kp P           &kp G      &none                                                            &kp LG(LS(J))   &kp J   &kp L          &kp U                 &kp Y                &kp SEMI       &kp BSLH
+              &hm LCTRL ESC  &hml LCTRL A  &hml LALT R       &hml LGUI S      &hml LSHIFT T   &kp D      &kp LA(BSLH)  &kp LGUI    &kp LALT          &kp LCTRL  &kp RGUI      &kp LG(LC(J))   &kp H   &hmr RSHIFT N  &hmr LGUI E           &hmr RALT I          &hmr RCTRL O   &kp SQT
+              &kp LSHFT      &kp Z         &hml LG(LCTRL) X  &hml LG(LALT) C  &kp V           &kp B                                 &kp LA(SPACE)     &kp PG_UP                                &kp K   &kp M          &hmr LG(LALT) COMMA   &hmr LG(LCTRL) DOT   &kp FSLH       &kp RSHFT
+              &kp LGUI       &kp GRAVE     &kp LALT          &kp LEFT         &kp RIGHT                  &kp BSPC       &kp ENTER   &kp END           &kp PG_DN  &lt 1 ESCAPE  &lt 2 SPACE             &kp UP         &kp DOWN              &kp LBKT             &kp RBKT       &mo 2
             >;
         };
 
         keypad {
             bindings = <
               &kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-              &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-              &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LGUI   &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-              &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-              &mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp ENTER  &kp END       &kp PG_DN  &kp ESC    &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 2
+              &kp TAB    &kp 7      &kp 8     &kp 9     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
+              &kp SEMI   &kp 4      &kp 5     &kp 6     &kp EQUAL  &kp G   &none     &kp LGUI   &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
+              &kp TILDE  &kp 1      &kp 2     &kp 3     &kp BSLH   &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+              &mo 1      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp DOT  &kp 0       &kp END       &kp PG_DN  &kp ESC    &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 2
             >;
         };
 
