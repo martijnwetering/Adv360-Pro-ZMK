@@ -28,12 +28,6 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
-// GUI+Tab swapper
-ZMK_BEHAVIOR(swapper, tri_state,
-    bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
-    ignored-key-positions = <LT0>;
-)
-
 / {
     behaviors {
         #include "macros.dtsi"
@@ -55,7 +49,7 @@ ZMK_BEHAVIOR(swapper, tri_state,
         default_layer {
             bindings = <
               &kp EQUAL      &kp N1        &kp N2            &kp N3           &kp N4          &kp N5     &tog 1                                                           &mo 3           &kp N6  &kp N7         &kp N8                &kp N9               &kp N0         &kp MINUS
-              &kp TAB        &kp Q         &kp W             &kp F            &kp P           &kp G      &swapper                                                            &kp LG(LS(J))   &kp J   &kp L          &kp U                 &kp Y                &kp SEMI       &kp BSLH
+              &kp TAB        &kp Q         &kp W             &kp F            &kp P           &kp G      &none                                                            &kp LG(LS(J))   &kp J   &kp L          &kp U                 &kp Y                &kp SEMI       &kp BSLH
               &hm LCTRL ESC  &hml LCTRL A  &hml LALT R       &hml LGUI S      &hml LSHIFT T   &kp D      &kp LA(BSLH)  &kp LGUI    &kp LALT          &kp LCTRL  &kp RGUI      &kp LG(LC(J))   &kp H   &hmr RSHIFT N  &hmr LGUI E           &hmr RALT I          &hmr RCTRL O   &kp SQT
               &kp LSHFT      &kp Z         &hml LG(LCTRL) X  &hml LG(LALT) C  &kp V           &kp B                                 &kp LA(SPACE)     &kp PG_UP                                &kp K   &kp M          &hmr LG(LALT) COMMA   &hmr LG(LCTRL) DOT   &kp FSLH       &kp RSHFT
               &kp LGUI       &kp GRAVE     &kp LALT          &kp LEFT         &kp RIGHT                  &kp BSPC       &kp ENTER   &kp END           &kp PG_DN  &lt 1 ESCAPE  &lt 2 SPACE             &kp UP         &kp DOWN              &kp LBKT             &kp RBKT       &mo 2
