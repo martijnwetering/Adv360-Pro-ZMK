@@ -70,8 +70,8 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
         default_layer {
             bindings = <
               &kp EQUAL      &kp N1        &kp N2            &kp N3           &kp N4          &kp N5        &kp LA(BSLH)                                                               &tdopen         &kp N6  &kp N7         &kp N8                &kp N9               &kp N0         &kp MINUS
-              &kp TAB        &kp Q         &kp W             &kp F            &kp P           &kp G         &kp LG(LC(RIGHT))                                                          &tdopen         &kp J   &kp L          &kp U                 &kp Y                &kp SEMI       &kp BSLH
-              &hm LCTRL ESC  &kp A         &lt 1 R           &kp S            &kp T           &kp D         &tdbackfor        &kp LGUI    &kp LALT         &kp LCTRL     &kp RGUI      &tdnav          &kp H   &kp N          &kp E                 &kp I                &kp O          &kp SQT
+              &kp TAB        &kp Q         &kp W             &kp F            &kp P           &kp G         &kp LC(6)                                                                  &kp LG(LC(J))   &kp J   &kp L          &kp U                 &kp Y                &kp SEMI       &kp BSLH
+              &hm LCTRL ESC  &kp A         &lt 1 R           &kp S            &kp T           &kp D         &tdbackfor        &kp LGUI    &kp LALT         &kp LCTRL     &kp RGUI      &kp LG(LS(J))   &kp H   &kp N          &kp E                 &kp I                &kp O          &kp SQT
               &kp LSHFT      &kp Z         &kp X             &kp C            &kp V           &kp B                                       &kp LA(SPACE)    &kp PG_UP                                   &kp K   &kp M          &hmr LGUI COMMA       &hmr LALT DOT        &kp FSLH       &kp RSHFT
               &kp LGUI       &kp GRAVE     &kp LALT          &kp LEFT         &kp RIGHT                     &kp BSPC          &kp ENTER   &kp TAB          &kp PG_DN     &lt 1 ESCAPE  &lt 2 SPACE             &kp UP         &kp DOWN              &kp LBKT             &kp RBKT       &mo 2
             >;
