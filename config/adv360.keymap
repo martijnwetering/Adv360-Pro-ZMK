@@ -8,7 +8,6 @@
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
-    ignore-modifiers;
 };
 
 / {
