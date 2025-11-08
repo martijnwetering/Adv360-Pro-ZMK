@@ -31,6 +31,13 @@
           tapping-term-ms = <200>;
           bindings = <&sk LSHIFT>, <&caps_word>;
       };
+
+      xcode_quick: xcode_quick {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <0>;
+          tapping-term-ms = <200>;
+          bindings = <&kp LG(LS(O))>, <&kp LG(LS(A))>;
+      };
     };
 
   keymap {
@@ -39,11 +46,11 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &kp EQUAL &kp N1      &kp N2           &kp N3      &kp N4       &kp N5 &tog 1                                                            &mo 3 &kp N6 &kp N7       &kp N8      &kp N9          &kp N0      &kp MINUS
-        &kp TAB   &kp Q       &hm LG(LCTRL) W  &hm LCTRL F &kp P        &kp G  &none                                                             &none &kp J  &kp L        &hm LCTRL U &hm LG(LCTRL) Y &kp SEMI    &kp BSLH
-        &kp ESC   &hm LCTRL A &hm LALT R       &hm LGUI S  &hm LSHIFT T &kp D  &none            &td_shift &kp LALT &kp LGUI  &td_shift           &none &kp H  &hm LSHIFT N &hm LGUI E  &hm LALT I      &hm LCTRL O &kp SQT
-        &td_shift &kp Z       &kp X            &kp C       &kp V        &kp B                             &kp HOME &kp PG_UP                           &kp K  &kp M        &kp COMMA   &kp DOT         &kp FSLH    &td_shift
-        &mo 2     &kp GRAVE   &kp CAPS         &kp LEFT    &kp RIGHT                 &kp BSPC &kp DEL     &kp END  &kp PG_DN &kp ENTER &kp SPACE              &kp UP       &kp DOWN    &kp LBKT        &kp RBKT    &mo 2
+        &kp EQUAL &kp N1      &kp N2           &kp N3      &kp N4       &kp N5 &tog 1                                                            &mo 3        &kp N6 &kp N7       &kp N8      &kp N9          &kp N0      &kp MINUS
+        &kp TAB   &kp Q       &hm LG(LCTRL) W  &hm LCTRL F &kp P        &kp G  &none                                                             &none        &kp J  &kp L        &hm LCTRL U &hm LG(LCTRL) Y &kp SEMI    &kp BSLH
+        &kp ESC   &hm LCTRL A &hm LALT R       &hm LGUI S  &hm LSHIFT T &kp D  &none            &td_shift &kp LALT &kp LGUI  &td_shift           &xcode_quick &kp H  &hm LSHIFT N &hm LGUI E  &hm LALT I      &hm LCTRL O &kp SQT
+        &td_shift &kp Z       &kp X            &kp C       &kp V        &kp B                             &kp HOME &kp PG_UP                                  &kp K  &kp M        &kp COMMA   &kp DOT         &kp FSLH    &td_shift
+        &mo 2     &kp GRAVE   &kp TAB         &kp LEFT    &kp RIGHT                 &kp BSPC &kp DEL     &kp END  &kp PG_DN &kp ENTER &kp SPACE                     &kp UP       &kp DOWN    &kp LBKT        &kp RBKT    &mo 2
       >;
     };
     keypad {
