@@ -121,6 +121,10 @@
         &trans &trans    &trans   &kp LT    &kp GT                   &trans &trans &trans &trans &trans &trans                 &trans   &trans   &trans  &trans  &trans
       >;
     };
+    extra1 {
+      display-name = "Red";
+      status = "reserved";
+    };
     extra2 {
       display-name = "Purple";
       status = "reserved";
