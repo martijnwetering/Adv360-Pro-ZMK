@@ -6,6 +6,23 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#define QUICK_TAP_MS 175
+
+&sk {
+  release-after-ms = <900>;
+  quick-release;
+};
+
+&sl { // Allow sticky mods to chord across sticky layers.
+  ignore-modifiers;
+};
+
+&lt {
+  flavor = "balanced";
+  tapping-term-ms = <200>;
+  quick-tap-ms = <QUICK_TAP_MS>;
+};
+
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
 };
