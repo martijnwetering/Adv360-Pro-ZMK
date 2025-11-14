@@ -95,8 +95,8 @@
         DSK_MGR   &kp N1       &kp N2           &kp N3       &kp N4        &kp N5 &tog 1                                                                  &mo 3         &kp N6 &kp N7        &kp N8       &kp N9           &kp N0       &kp MINUS
         &kp GRAVE &kp Q        &hml LG(LCTRL) W &hml LCTRL F &kp P         &kp G  &kp LG(LC(J))                                                           &kp LG(LS(J)) &kp J  &kp L         &hmr LCTRL U &hmr LG(LCTRL) Y &kp SEMI     &kp BSLH
         &kp ESC   &hml LCTRL A &hml LALT R      &hml LGUI S  &hml LSHIFT T &kp D  &kp GRAVE            &td_shift  &kp MINUS &kp LGUI &td_shift            &xcode_quick  &kp H  &hmr LSHIFT N &hmr LGUI E  &hmr LALT I      &hmr LCTRL O &kp SQT
-        &td_shift &kp Z        &kp X            &kp C        &kp V         &kp B                                  &kp UNDER &kp PG_UP                                   &kp K  &kp M         &kp COMMA    &kp DOT          &kp FSLH     &td_shift
-        &mo 2     &kp GRAVE    &kp TAB          &kp LEFT     &kp RIGHT                  &mtt 4 BSPC &kp LA(SPACE) &kp END   &kp PG_DN &kp ENTER &mtt 4 SPACE                   &kp UP        &kp DOWN     &kp LBKT         &kp RBKT     &mo 2
+        &td_shift &kp Z        &kp X            &kp C        &kp V         &kp B                                  &kp LPAR  &kp RPAR                                    &kp K  &kp M         &kp COMMA    &kp DOT          &kp FSLH     &td_shift
+        &mo 2     &kp GRAVE    &kp TAB          &kp LEFT     &kp RIGHT                  &mtt 4 BSPC &kp LA(SPACE) &kp LBKT  &kp RBKT &kp ENTER &mtt 4 SPACE                    &kp UP        &kp DOWN     &kp ENTER        &kp RBKT     &mo 2
       >;
     };
     keypad {
@@ -105,7 +105,7 @@
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                           &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &kp RSHFT
+        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp LPAR &kp RPAR                            &kp N  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &kp RSHFT
         &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0              &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT        &mo 2
       >;
     };
