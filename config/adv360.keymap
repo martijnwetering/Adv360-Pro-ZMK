@@ -92,7 +92,7 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        DSK_MGR   &kp N1       &kp N2       &kp N3       &kp N4        &kp N5 &kp LG(lC(LEFT)))                                                             &kp LG(LCTRL) &kp N6 &kp N7        &kp N8       &kp N9       &kp N0       &kp MINUS
+        DSK_MGR   &kp N1       &kp N2       &kp N3       &kp N4        &kp N5 &kp LG(lC(LEFT))                                                              &kp LG(LCTRL) &kp N6 &kp N7        &kp N8       &kp N9       &kp N0       &kp MINUS
         &kp GRAVE &kp Q        &kp W        &kp F        &kp P         &kp G  &kp LG(LC(J))                                                                 &kp LG(LS(J)) &kp J  &kp L         &kp U        &kp Y        &kp SEMI     &kp SQT
         &kp ESC   &hml LCTRL A &hml LALT R  &hml LGUI S  &hml LSHIFT T &kp D  &kp ESC                &kp LGUI &kp LSHIFT  &kp LSHFT &kp LGUI                &xcode_quick  &kp H  &hmr LSHIFT N &hmr LGUI E  &hmr LALT I  &hmr LCTRL O &kp ENTER
         &td_shift &kp Z        &kp X        &kp C        &kp V         &kp B                                  &kp LALT    &kp LALT                                        &kp K  &kp M         &kp COMMA    &kp DOT      &kp FSLH     &td_shift
