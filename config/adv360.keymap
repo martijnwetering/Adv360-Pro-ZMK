@@ -92,11 +92,11 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        DSK_MGR   &kp N1       &kp N2       &kp N3       &kp N4        &kp N5 &kp LG(LC(LEFT))                                                              &kp LG(LCTRL) &kp N6 &kp N7        &kp N8       &kp N9       &kp N0       &kp MINUS
-        &kp GRAVE &kp Q        &kp W        &kp F        &kp P         &kp G  &kp LG(LC(J))                                                                 &kp LG(LS(J)) &kp J  &kp L         &kp U        &kp Y        &kp SEMI     &kp SQT
-        &kp ESC   &hml LCTRL A &hml LALT R  &hml LGUI S  &hml LSHIFT T &kp D  &kp ESC                &kp LGUI &kp LSHIFT  &kp LSHFT &kp LGUI                &xcode_quick  &kp H  &hmr LSHIFT N &hmr LGUI E  &hmr LALT I  &hmr LCTRL O &kp ENTER
-        &td_shift &kp Z        &kp X        &kp C        &kp V         &kp B                                  &kp LALT    &kp LALT                                        &kp K  &kp M         &kp COMMA    &kp DOT      &kp FSLH     &td_shift
-        &mo 2     &kp GRAVE    &kp TAB      &kp LEFT     &kp RIGHT                  &mtt 4 BSPC &kp LA(SPACE) &kp LCTRL   &kp LCTRL &kp LG(LA(LC(S))) &mtt 4 SPACE               &kp UP        &kp DOWN     &kp BSLH     &kp RBKT     &mo 2
+        &kp CAPS  &kp N1       &kp N2       &kp N3       &kp N4        &kp N5 &kp LG(LC(LEFT))                                                                    &kp LG(LCTRL) &kp N6 &kp N7        &kp N8       &kp N9       &kp N0       &kp MINUS
+        &kp GRAVE &kp Q        &kp W        &kp F        &kp P         &kp G  &kp LG(LC(J))                                                                       &kp LG(LS(J)) &kp J  &kp L         &kp U        &kp Y        &kp SEMI     &kp BSLH
+        &kp ESC   &hml LCTRL A &hml LALT R  &hml LGUI S  &hml LSHIFT T &kp D  &kp LC(LA(SPACE))      &kp LGUI &kp LG(LS(BSLH))  &kp LSHFT &kp LGUI                &xcode_quick  &kp H  &hmr LSHIFT N &hmr LGUI E  &hmr LALT I  &hmr LCTRL O &kp SQT
+        &td_shift &kp Z        &kp X        &kp C        &kp V         &kp B                                  &kp LALT          &kp LALT                                        &kp K  &kp M         &kp COMMA    &kp DOT      &kp FSLH     &td_shift
+        &mo 2     &kp GRAVE    &kp TAB      &kp LEFT     &kp RIGHT                  &mtt 4 BSPC &kp LA(SPACE) &kp LCTRL         &kp LCTRL &kp LG(LS(BSLH)) &mtt 4 SPACE                &kp UP        &kp DOWN     &kp ENTER    &kp RBKT     &mo 2
       >;
     };
     keypad {
